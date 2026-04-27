@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: #f6f6f8;
+  color: #222;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADER */
+.header {
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+.btn {
+  background: linear-gradient(135deg, #7b61ff, #a855f7);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  padding: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #7b61ff;
+  cursor: pointer;
+}
+
+.stores img {
+  width: 140px;
+  margin-right: 10px;
+}
+
+/* MISSION */
+.mission {
+  display: flex;
+  gap: 40px;
+  margin: 80px auto;
+}
+
+.mission-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 16px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* LOCATIONS */
+.locations {
+  margin: 80px auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.loc-card {
+  position: relative;
+}
+
+.loc-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.loc-card span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+
+/* CITIES */
+.cities {
+  background: linear-gradient(135deg, #7b61ff, #a855f7);
+  padding: 50px 0;
+  color: white;
+}
+
+.city-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.city {
+  position: relative;
+}
+
+.city img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.city span {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 40px 0;
+  background: linear-gradient(135deg, #7b61ff, #a855f7);
+  color: white;
+}
+
+.phone {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* FOOTER */
+.footer {
+  padding: 20px 0;
+  background: #eee;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+}
